@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.nuxt
+dist
+app/static/sw.js
+app/static/workbox-sw.prod*
+yarn-error.log
+coverage
+.DS_Store
+app/tailwind.config.js
+app/config/tailwind.config.js
