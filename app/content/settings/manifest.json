@@ -1,8 +1,8 @@
 {
-  "name": "Bluise",
-  "shortName": "Bluise",
-  "description": "A Nuxt.js & Netlify CMS boilerplate.",
-  "themeColor": "#0b3765",
+  "name": "Safe Haven Accounting",
+  "shortName": "SHA",
+  "description": "Bookkeeping Services for Small Businesses in Washington State",
+  "themeColor": "#53c3c2",
   "backgroundColor": "#ffffff",
   "lang": "en"
 }
