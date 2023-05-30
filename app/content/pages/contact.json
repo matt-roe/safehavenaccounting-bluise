@@ -1,5 +1,5 @@
 {
   "title": "Contact",
-  "content": "Got questions? Get in touch with us by filling out the form below or calling us at **[925-238-3503](tel:925-238-3503)**. You can also **[schedule an appointment](https://safehavenaccounting.com/make-an-appointment/)** with us using our online appointment scheduler.",
+  "content": "Got questions? Get in touch with us by filling out the form below or calling us at **[925-238-3503](tel:925-238-3503)**. You can also **[schedule an appointment](https://safehavenaccounting.com/make-an-appointment/)** with us using our online appointment scheduler.\n\n<form name=\"contact\" method=\"POST\" netlify>\n  <p>\n    <label>Your Name: <input type=\"text\" name=\"name\" /></label>\n  </p>\n  <p>\n    <label>Your Email: <input type=\"email\" name=\"email\" /></label>\n  </p>\n  <p>\n    <label>Your Role: <select name=\"role[]\" multiple>\n      <option value=\"leader\">Leader</option>\n      <option value=\"follower\">Follower</option>\n    </select></label>\n  </p>\n  <p>\n    <label>Message: <textarea name=\"message\"></textarea></label>\n  </p>\n  <p>\n    <button type=\"submit\">Send</button>\n  </p>\n</form>\n",
   "subtitle": "Contact Safe Haven Accounting"
 }
