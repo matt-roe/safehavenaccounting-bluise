@@ -39,14 +39,3 @@ export default class Header extends Vue {
   logo = settings.logo;
 }
 </script>
-
-<style lang="scss">
-.nav {
-  ul li > a {
-    &.nuxt-link-active {
-      color: $bluise;
-      @apply font-bold;
-    }
-  }
-}
-</style>

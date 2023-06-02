@@ -10,7 +10,7 @@
             <img
               :alt="post.title"
               class="w-full"
-              :src="post.featuredImage || 'https://source.unsplash.com/random/640x340'"
+              :src="post.featuredImage || '/images/uploads/cropped-cropped-sha-logo-1.png'"
             />
             <div class="p-6 bg-white">
               <h2 class="text-2xl mb-2">{{ post.title }}</h2>

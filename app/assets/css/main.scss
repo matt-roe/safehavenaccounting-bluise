@@ -5,10 +5,39 @@ body {
   @apply subpixel-antialiased;
 }
 
+@media (min-width: 1px) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #fff;
+}
+
+.divider {
+  position: relative;
+  min-width: 100vw;
+  margin-top: auto;
+}
+
+.nuxt {
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  padding-top: 80px;
+}
+
+.header {
+  background-color: #222222;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  height: 110px;
+}
+
+.header__logo {
+  padding-left: 2%;
 }
 
 .page-enter-active,
