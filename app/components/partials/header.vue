@@ -13,6 +13,14 @@
             Blog
           </nuxt-link>
         </li>
+        <li>
+          <a
+            href="https://linktr.ee/SafeHavenAccounting"
+            class="block font-medium px-4 py-1 md:p-2 lg:px-4"
+          >
+            Links
+          </a>
+        </li>
 
         <li
           v-for="(page, index) in pages"
